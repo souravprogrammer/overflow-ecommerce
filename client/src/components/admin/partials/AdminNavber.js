@@ -34,7 +34,7 @@ const AdminNavber = (props) => {
           </span>
         </div>
         {/*  Large Screen Show  */}
-        <div className="hidden lg:block">
+        <div className="hidden lg:block" style={{ border: "1px solid red" }}>
           <span
             onClick={(e) => history.push("/admin/dashboard")}
             style={{ letterSpacing: "0.70rem" }}
