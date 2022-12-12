@@ -34,13 +34,13 @@ const AdminNavber = (props) => {
           </span>
         </div>
         {/*  Large Screen Show  */}
-        <div className="hidden lg:block" style={{ border: "1px solid red" }}>
+        <div className="hidden lg:block">
           <span
             onClick={(e) => history.push("/admin/dashboard")}
             style={{ letterSpacing: "0.70rem" }}
             className="flex items-left text-center font-bold uppercase text-gray-800 text-2xl cursor-pointer px-2 text-center"
           >
-            Hayroo
+            OverFlow
           </span>
         </div>
         {/* Small Screen Show */}
@@ -65,7 +65,7 @@ const AdminNavber = (props) => {
             style={{ letterSpacing: "0.10rem" }}
             className="flex items-left text-center font-bold uppercase text-gray-800 text-2xl cursor-pointer px-2 text-center"
           >
-            Hayroo
+            OverFlow
           </span>
         </div>
         {/* Both Screen show */}
